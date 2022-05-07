@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/web/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "knex": "^2.0.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.16",
+    "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}
