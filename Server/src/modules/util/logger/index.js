@@ -1,5 +1,6 @@
 const { Console } = require('node:console');
 const fs = require('fs');
+const FormatDate =  require('../FormatDate/index');
 
 class Logger {
 
@@ -30,7 +31,7 @@ class Logger {
         const outPut = fs.createWriteStream('./src/log/output.log');
         const errorPut = fs.createWriteStream('./src/log/errorPut.log');
         const logger = new Console(outPut, errorPut);
-        this.LogApi.push({ message: message, path: path, error: error, date: new Date() });
+        this.LogApi.push({ message: message, path: path, error: error, date: FormatDate() });
         logger.table([...this.LogApi]); // desativar a quebra de linha automatica do VSCODE para conseguir visualizar a tabela
         logger.error([...this.LogApi]);
     }
