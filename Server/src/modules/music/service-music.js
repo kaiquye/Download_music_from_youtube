@@ -1,5 +1,7 @@
 const fs = require('fs');
 const ytdl = require('ytdl-core');
+const Logger = require('../util/logger');
+const AppErro = require('../util/appError/index');
 
 class ServicesMusic {
 
@@ -10,15 +12,11 @@ class ServicesMusic {
                 .pipe(fs.createWriteStream('./src/modules/music/download/music-' + name + '.mp3')); // salvando a musica em partes 
             return 'music-' + name;
         } catch (error) {
-            console.log(error);
+            Logger.CreateNewLoggerApi('Erro ao criar processa arquivo', error.stack, error.message);
+            return new AppErro(500, 'Erro ao processar imagem');
         }
     }
 }
 
 module.exports = new ServicesMusic();
 
-
-// se for enviar para o clinet
-// const dir = './src/modules/music/video.mp3  ';
-// const read = fs.createReadStream(dir);
-// const whire = fs.createWriteStream('txt33.mp3');
