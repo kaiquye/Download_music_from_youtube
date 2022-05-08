@@ -41,6 +41,10 @@
   font-weight: 500;
   cursor: pointer;
 }
+.Decoder:hover{
+  background-color: orange;
+  color: white;
+}
 .Download {
   background-color: orange;
   font-family: Arial, Helvetica, sans-serif;
@@ -48,10 +52,17 @@
   font-weight: 700;
   cursor: pointer;
 }
+.Download:hover{
+  background-color: red;
+}
 textarea:focus,
 input:focus,
 select:focus {
   box-shadow: 0 0 0 0;
   border: 0 none;
   outline: 0;
+}
+.link{
+  text-decoration: none;
+  color: white;
 }

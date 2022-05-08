@@ -32,6 +32,7 @@ class ControllerMusic {
             // });
             const read = fs.createReadStream('./src/modules/music/download/' + nameMusic + '.mp3'); // lendo o arquivo
             // apagar o arquivo quando o evento END é emitido pela Stream ( AVISO : ESSA FUNÇÃO DEMORA PARA SER FINALIZADA ** fs.unlinkSync**  )
+            read.on('error', () => { res.status(404).json({ sucess: false, message: 'Musica não encontrada.' }); });
             read.pipe(res); // enviando o arquivo para o navegador da pessoa;
             // res.download('./src/modules/music/download/' + nameMusic + '.mp3');
         } catch (error) {

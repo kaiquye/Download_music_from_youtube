@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const API = Axios.create({
-    baseURL: process.env.URLBASE
+    baseURL: process.env.REACT_APP_BASEURL
 })
 
 
@@ -9,12 +9,13 @@ const API = Axios.create({
 export default function ConnectionApi() {
     return ({
         decoderUrl: async function (url) {
-            return API.get('/save', {
+            return API.post('/save', {
                 url: url
             })
         },
         downloadMusic: async function (musicName) {
-            return API.get('/save/download/' + musicName);
+            alert(musicName)
+            return API.get('/download/' + musicName);
         }
     })
 }
