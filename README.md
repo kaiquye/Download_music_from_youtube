@@ -18,3 +18,8 @@
 - HTML
 - CSS
 - Material ui
+
+# 📌 Alert
+
+implementation was created in 2022-04 Errors may occur
+
