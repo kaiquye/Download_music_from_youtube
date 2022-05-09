@@ -4,7 +4,7 @@
 
 Esta aplicação foi criada para aprimorar meus conhecimentos em Stream do node.js e também para baixar minhas musicas 📍
 
-A aplicação ainda não finalizada, falta implementar e configurar a parte de segurança da aplicação ( cors, helmet )e refatorar alguns arquivos.
+A aplicação ainda não finalizada, falta implementar e configurar a parte de segurança da aplicação ( cors, helmet ) e refatorar alguns arquivos.
 
 # ⛏ build with 
 
