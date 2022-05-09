@@ -1,0 +1,28 @@
+[
+  {
+    message: 'redsponse is not defined',
+    path: 'ReferenceError: redsponse is not defined\n' +
+      '    at Save (C:\\Users\\kaique\\Desktop\\Repositorios\\Projeto-Download-Music\\Server\\src\\modules\\music\\controller-music.js:15:13)\n' +
+      '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+    error: 'Error message not defined',
+    date: '2022-05-08 21:20:44'
+  },
+  {
+    message: 'redsponse is not defined',
+    path: 'ReferenceError: redsponse is not defined\n' +
+      '    at Save (C:\\Users\\kaique\\Desktop\\Repositorios\\Projeto-Download-Music\\Server\\src\\modules\\music\\controller-music.js:15:13)\n' +
+      '    at runMicrotasks (<anonymous>)\n' +
+      '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+    error: 'Error message not defined',
+    date: '2022-05-08 21:20:53'
+  },
+  {
+    message: 'redsponse is not defined',
+    path: 'ReferenceError: redsponse is not defined\n' +
+      '    at Save (C:\\Users\\kaique\\Desktop\\Repositorios\\Projeto-Download-Music\\Server\\src\\modules\\music\\controller-music.js:15:13)\n' +
+      '    at runMicrotasks (<anonymous>)\n' +
+      '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
+    error: 'Error message not defined',
+    date: '2022-05-08 21:20:54'
+  }
+]
