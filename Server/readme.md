@@ -2,7 +2,6 @@
 
 ### 🎶 Download music youtube
 
-- 👮🏾‍♂️ Segurança
+- 👮🏾‍♂️ Segurança ( implementar ) 
   - Configurar o cors;
   - Helmer
-  - LIVE SALVA EM ASSISTIR MAIS TARDER
