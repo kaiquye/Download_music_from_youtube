@@ -2,7 +2,7 @@
  
 ![image](https://user-images.githubusercontent.com/69175890/167321789-dc33cce3-da96-4f00-af83-d1647077e2b6.png)
 
-Esta aplicação foi criada para acrecentar meus conhecimentos em Stream do node.js e também para baixar minhas musicas 📍
+Esta aplicação foi criada para aprimorar meus conhecimentos em Stream do node.js e também para baixar minhas musicas 📍
 
 # ⛏ build with 
 
