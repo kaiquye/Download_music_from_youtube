@@ -2,7 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('./middleware/Cors');
 const routeMusic = require('./routes/route-music');
-
+const fs = require('fs');
+const path = require('path');
+const morgan = require('morgan');
 class Main {
 
     App;
@@ -13,6 +15,8 @@ class Main {
     }
 
     Middleware() {
+        const accessLogStream = fs.createWriteStream(path.join('./src/log', 'access.log'), { flags: 'a' });
+        this.App.use(morgan('combined', { stream: accessLogStream }));
         this.App.use(express.json());
         this.App.use(cors.ConfigCors());
     }
