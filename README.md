@@ -1,10 +1,13 @@
 # 🎶 Download music from youtube free 
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+- Gif com baixa qualidade.
 ![decoderToGif](https://user-images.githubusercontent.com/69175890/167733234-30d37ab0-d909-419c-a043-ed20b6cb791b.gif)
 
 Esta aplicação foi criada para aprimorar meus conhecimentos em Stream do node.js e também para baixar minhas musicas 📍
 
-A aplicação ainda não finalizada, falta implementar e configurar a parte de segurança da aplicação ( cors, helmet ) e refatorar alguns arquivos.
+A aplicação ainda não foi finalizada, falta implementar e configurar a parte de segurança da aplicação ( cors, helmet ) e refatorar alguns arquivos.
 
 # ⛏ build with 
 
